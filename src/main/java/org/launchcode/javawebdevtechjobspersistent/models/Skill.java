@@ -5,7 +5,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 @Entity
-
 public class Skill extends AbstractEntity {
 
     @NotBlank(message = "Please add descripton")
